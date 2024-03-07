@@ -1,0 +1,34 @@
+title: Joe Barteluce
+description: Undergraduate Computer Scientist at Washington State University Vancouver
+baseurl: ""
+url: https://jbarteluce.net
+
+theme: cvless
+
+# site settings
+taglong:  Computer Science Undergrad
+tagshort: Computer Science Undergrad
+
+# author settings
+author:
+  name: Joe Barteluce
+  email: username@domain.com
+photo: assets/files/joe_brick.jpg
+address: Foobar Hall 1.23
+phone: +1 234 567 890
+
+# social media links
+social:
+  facebook: username
+  github: joebarteluce
+  instagram: username
+  linkedin: joseph-barteluce-551b98295
+  stackoverflow: 0000000/username
+  x: username
+
+# build settings
+permalink: pretty
+exclude:
+  - docker-compose.yml
+  - LICENSE
+  - README.md

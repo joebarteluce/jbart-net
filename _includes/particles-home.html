@@ -1,0 +1,26 @@
+<div id="particles-js" class="fullscreen">
+  <div class="jumbotron text-center">
+    {% if site.photo %}
+    <img class="particles-photo" src="{{ site.photo }}" />
+    {% endif %}
+    <h1 class="particles-title">{{ site.title }}</h1>
+    <h1 class="particles-subtitle">{{ site.taglong }}</h1>
+    <div class="nowrap">
+
+      {% if site.social.linkedin %}
+      <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{% include svg/linkedin.svg %}</a>
+      {% endif %}
+
+
+      {% if site.social.github %}
+      <a class="particles-icon" href="https://github.com/{{ site.social.github }}">{% include svg/github.svg %}</a>
+      {% endif %}
+
+      <a class="particles-icon" href="https://jbarteluce.net/assets/files/barteluce_resume.pdf">{% include svg/cv-circled.svg %}</a>
+      <a class="particles-icon" href="mailto:joe.barteluce@gmail.com?subject=Hi%20Joe&body=We%20could%20use%20your%20help%20on%20our%20next%20project!">{% include svg/send-mail.svg %}</a>
+      <a class="particles-icon" href="posts">{% include svg/open-book.svg %}</a>
+
+    </div>
+  </div>
+
+</div>
